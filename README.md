@@ -4,7 +4,7 @@ This repository documents a structured, day-by-day learning journey to rebuild s
 
 🎯 Purpose
 
-After 7 years of intermittent coding experience (primarily Java full-stack with React/Angular), this repo is used to:
+After 7+ years of intermittent coding experience (primarily Java full-stack with React/Angular), this repo is used to:
 
 Rebuild coding fluency from fundamentals
 Strengthen Python programming skills
@@ -12,12 +12,15 @@ Develop AI/ML foundational understanding
 Practice real-world data processing patterns
 Build consistent coding discipline (daily commits)
 Prepare for modern software and AI engineering roles
+
 🧠 Learning Approach
 1-hour focused coding sprints
 Practical, problem-solving based learning
 Emphasis on understanding over memorization
 Daily incremental improvement
 Real-world data structure thinking (logs, users, systems)
+
+
 📁 Repository Structure
 python-comeback-journey/
 │
@@ -34,6 +37,8 @@ Python scripts
 Practice problems
 Mini projects
 Notes (when applicable)
+
+
 📌 Key Learning Milestones
 ✅ Completed so far
 Python basics (loops, conditions, lists)
@@ -44,17 +49,22 @@ File I/O operations
 Object-Oriented Programming (classes, methods)
 Data processing using dictionaries/lists
 Log analysis mini-system
+
+
 🚧 Current Focus Areas
 Strengthening Python problem-solving speed
 Building small real-world systems (log analyzers, student systems)
 Improving code structure and readability
 Transitioning from Java OOP mindset → Pythonic thinking
 Introduction to NumPy and AI foundations
+
+
 🧩 Example Projects
 Student result management system (OOP)
 Log data analyzer (backend-style processing)
 Function utility library (math + string + validation)
 Mini report generation systems
+
 🧭 Future Direction
 Python for backend APIs (Flask/FastAPI)
 Data processing with NumPy & Pandas
@@ -66,16 +76,20 @@ Full-stack + AI hybrid role readiness
 Each day includes:
 
 1–4 coding sprints (1 hour each)
-GitHub commits per sprint
+GitHub commits
 Incremental complexity increase
 Reflection + debugging practice
+
+
 ⚡ Philosophy
 
 “Consistency over intensity. Clarity over speed. Engineering thinking over syntax memorization.”
 
+
 📅 Status
 
 🚀 Active daily learning in progress
+
 
 👤 Author
 
