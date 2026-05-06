@@ -32,12 +32,42 @@ print(
 
 # array slicing
 # syntax: array[start:stop:step]
-array2 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+array2 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])
 print("Slicing Array from index 0:\n", array2[0])
 print("Slicing Array from index 2:\n", array2[2])
 print("Slicing Array from last index:\n", array2[-1])
 
 print("Slicing Array from index 1 with step 2:\n", array2[1, ::2])
+print("All array with step 2:\n", array2[::2])
+print("All array with negative step 2:\n", array2[::-2])
 print("Slicing Array from index 1 to 2:\n", array2[1:2])  # 2 is exclusive
 
-print("Slicing Array letter from index 0 to 2:\n", array2[0:2])  # 2 is exclusive
+print("Slicing Array from columns:\n", array2[:, 2])  # 2 column in all rows
+print(
+    "Slicing Array from columns:\n", array2[1:3, 1]
+)  # 1st column in rows 1 to 2 , 3 is exclusive
+
+print(
+    "Slicing Array from column range:\n", array2[:, 0:2]
+)  # 0 to 2d column in all rows , 2 is exclusive
+
+print(
+    "Slicing Array from  column in step -2\n", array2[:, ::2]
+)  # All rows in column step to 2
+
+print(
+    "Slicing Array from column in step -2:\n", array2[:, ::-2]
+)  # All rows in column step to - 2
+
+print(
+    "Slicing Array from columns from 1 in step -2:\n", array2[:, 1::-2]
+)  # All rows in column from column 1 step to - 2
+
+print(
+    "Slicing Array from columns from 1 in step 2:\n", array2[:, 1::2]
+)  # All rows in column from column 1 step to 2
+
+
+print(
+    "Selecting Qudrant Array from 1:3 rows and 0:2  columns:\n", array2[1:3, 0:2]
+)  # All rows in column from column 1 step to 2
