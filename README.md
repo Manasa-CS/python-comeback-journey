@@ -43,8 +43,6 @@ python-comeback-journey/
 ├── day03_debug_dic_filehandling/
 ├── day04_functions_core/
 ├── day05_data_structures/
-├── day06_oops/
-├── day07_numpy/
 └── ...
 ```
 
